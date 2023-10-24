@@ -2,8 +2,11 @@ package main
 
 import (
 	"GoLang/Golang/variables"
+	"fmt"
 )
 
 func main() {
-	variables.MuestroEnteros()
+	estado, texto := variables.ConviertoaTexto(90)
+	fmt.Println(estado)
+	fmt.Println(texto)
 }
